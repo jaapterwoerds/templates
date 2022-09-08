@@ -34,7 +34,10 @@
         path = ./c-hello;
         description = "An over-engineered Hello World in C";
       };
-
+      datascience = {
+         path = ./datascience;
+         description = "Data science template wiht jupyterWith and mach-nix";
+      };
       rust-web-server = {
         path = ./rust-web-server;
         description = "A Rust web server including a NixOS module";
